@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+.height-100vh {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+

@@ -1,0 +1,24 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+  /* background-color: gainsboro; */
+  background-color: dimgray;
+  position: absolute;
+  width: 100%;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  width: 9%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 19px;
+  color: white;
+  font-weight: bold;
+}
+
+.class1 {
+  text-decoration: underline;
+}

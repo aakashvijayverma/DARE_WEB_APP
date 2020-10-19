@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+}
+
+.height-100vh {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.align {
+  display:flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+.PA-0{
+  padding: 0px;
+}
+
+.skimtonebox{
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.btnAlign {
+  margin: 30px 18px 30px 0px;
+  color: white;
+  background-color: peru;
+}
+
+.opacitySet {
+  opacity: .5;
+}
+
+.alignheader {
+  display:flex;
+  height: 53px;
+  align-items: center;
+  font-weight: bold;
+}
+
+
